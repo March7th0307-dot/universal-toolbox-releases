@@ -1,2 +1,28 @@
-# universal-toolbox-releases
-Universal Toolbox macOS 安装包、更新列表与发布说明。仅发布二进制应用，不包含开发源码。
+# 万能工具箱 / Universal Toolbox
+
+这里提供 macOS 安装包、自动更新列表与发布说明，仅发布应用，不公开开发源码。
+
+## 下载安装
+
+[打开最新版本下载页面](https://github.com/March7th0307-dot/universal-toolbox-releases/releases/latest)
+
+- 适用于 **Apple 芯片（M 系列）Mac，macOS 14 或更新版本**；目前不支持 Intel Mac。
+- 普通使用者下载 `universal-toolbox-版本号-build构建号-arm64.zip`。名称带 `test` 的 ZIP 是独立 Test 应用。
+- 解压后把「万能工具箱.app」移到「应用程序」文件夹。
+- 当前没有 Apple Developer ID 公证。首次打开可能需要在系统设置「隐私与安全性」中确认允许打开；请先确认从本仓库下载。[Apple 首次打开说明](https://support.apple.com/en-us/102445)
+
+## 更新
+
+安装后，可在 App 菜单「检查更新」或设置「软件更新」中查看新版本。默认在 App 运行时约每两小时自动检查，也可关闭自动检查。
+
+发布新版本后，App 会提示有更新可用；确认下载，再选择安装并重开，即可替换应用。首次安装需要手动下载，后续更新通过 App 完成。XML 文件是自动更新列表，不需要手动下载。
+
+正式版与 Test 应用使用独立更新列表和数据目录，互不替换。
+
+## 试用说明
+
+目前供少量朋友试用，但本仓库的下载链接公开，拿到链接的人也可以下载。下载和自动检查更新不要求使用者登录 GitHub。
+
+应用包不包含本机用户记录、发布用账号凭据、API Key 或更新签名私钥。需要自行申请的服务 Key，由使用者在自己的应用中配置。
+
+开源依赖及许可说明随应用资源附带。
